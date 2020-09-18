@@ -48,8 +48,24 @@ Usage:
 
 `./In-Mito.py file.fasta`
 
+For example try with:
+
+`./In-Mito.py P39722.fasta`
+
 Outputs:
 
 - Log file ('filename_output.txt') containing the entries subdivided in matrix and membrane proteins.
 - The UniRep encoding
 - The seqvec encoding
+
+### This repository contains:
+
+
+- LR_mito_model.sav : The LR pre-computed model 
+- P39722.fasta : an example fasta file
+
+- useful scripts retrived from the UniRep Github repository (see above):
+data_utils.py
+unirep.py
+unirep_encode.py
+utils.py
