@@ -27,10 +27,9 @@ Then download the weights with
 
 #### 3) The pre-computed model 'LR_model2.sav' is also required.
 
+#### 4) Additional requirements
 
-
-
-You can also check the List_of_used_packeges for building your own conda environment.
+You can also check the file 'List_of_used_packeges' for building your own conda environment.
 
 It will sure work with:
 
