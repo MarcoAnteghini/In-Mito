@@ -15,7 +15,7 @@ https://pypi.org/project/seqvec/
 
 https://github.com/churchlab/UniRep
 
-Make sure you download the 1900_weights directory and place it toghether with the other files in this repository.
+Make sure you download the 1900_weights directory and place it together with the other files in this repository.
 
 For example you can first install awscli:
 
@@ -42,11 +42,9 @@ Suggested packages:
 
 ### Usage of `In-Mito.py`
 
-first make sure the script is executable: `chmod +x In-Mito.py`
-
 Usage:
 
-`./In-Mito.py file.fasta`
+`./In-Mito.py <file>.fasta`
 
 For example try with:
 
@@ -54,7 +52,7 @@ For example try with:
 
 Outputs:
 
-- Log file ('filename_output.txt') containing the entries subdivided in matrix and membrane proteins.
+- Log file ('\<file\>_output.txt') containing the entries subdivided in matrix and membrane proteins.
 - The UniRep encoding
 - The seqvec encoding
 
@@ -69,3 +67,5 @@ Outputs:
   - unirep.py
   - unirep_encode.py
   - utils.py
+
+The code in this repository is licensed under the terms of GPL v3 as specified by the LICENSE file.
