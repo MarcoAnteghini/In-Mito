@@ -43,7 +43,7 @@ It will sure work with:
 
 ### Usage of `In-Mito.py`
 
-first make sure the script is executable: `chmod +x In-Pero.py`
+first make sure the script is executable: `chmod +x In-Mito.py`
 
 Usage:
 
