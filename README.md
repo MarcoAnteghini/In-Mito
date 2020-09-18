@@ -41,7 +41,7 @@ It will sure work with:
 - `seqvec 0.4.1`
 - `scipy 1.4.1`
 
-Usage of In-Mito.py
+### Usage of `In-Mito.py`
 
 first make sure the script is executable: `chmod +x In-Pero.py`
 
