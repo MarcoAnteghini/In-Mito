@@ -25,13 +25,12 @@ Then download the weights with
 
 `aws s3 sync --no-sign-request --quiet s3://unirep-public/1900_weights/ 1900_weights`
 
-#### 3) The pre-computed model 'LR_model2.sav' is also required.
+#### 3) The pre-computed model 'LR_mito_model.sav' is also required.
 
 #### 4) Additional requirements
 
-You can also check the file 'List_of_used_packeges' for building your own conda environment.
 
-It will sure work with:
+Suggested packages:
 
 - `numpy 1.17.2`
 - `biopython 1.77`
