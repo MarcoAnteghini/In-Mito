@@ -25,7 +25,7 @@ Then download the weights with
 
 `aws s3 sync --no-sign-request --quiet s3://unirep-public/1900_weights/ 1900_weights`
 
-#### 3) The pre-computed model 'LR_mito_model.sav' is also required.
+#### 3) The pre-computed model 'LR_mito_model.sav'/'SVM_mito_model.sav' is also required.
 
 #### 4) Additional requirements
 
