@@ -71,6 +71,7 @@ p1 = Popen(["seqvec", "-i", fastafile, "-o", fastafile[:-6]+str('_seqvec.npz'),"
 p1.communicate()
 
 filename='LR_mito_model.sav'
+#filename='SVM_mito_model.sav'
 
 LR_model = pickle.load(open(filename, 'rb'))
 
